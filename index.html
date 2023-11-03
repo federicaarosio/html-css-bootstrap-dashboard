@@ -23,20 +23,31 @@
 <body>
 
   <!-- header -->
-  <header class="my_searchbar">
+  <header class="my_searchbar">   
 
     <nav class="navbar">
-      <div class="container-fluid">
-        <div class="d-flex">
-          <a class="navbar-brand" href="#">
-            <img src="./img/logo.svg" alt="boolean logo" class="img-fluid">
-          </a>
+      <div class="container-fluid d-flex flex-nowrap">
       
-          <form class="d-flex" role="search">
-            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-            <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-          </form>
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.svg" alt="boolean logo" class="img-fluid">
+        </a>
+    
+        <form class="input-group me-3">
+          <span class="input-group-text bg-secondary-subtle" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input type="search" class="form-control bg-secondary-subtle" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon1">
+        </form>
+
+
+        <div class="my_wrapper-icons d-flex flex-nowrap align-items-center">
+
+          <i class="fa-solid fa-list-ul d-none d-lg-inline-block me-3"></i>
+          <i class="fa-solid fa-circle-question d-none d-lg-inline-block me-3"></i>
+          <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block me-3"></i>
+
+          <i class="fa-solid fa-bell me-3" style="color: #ff8f00;"></i>
         </div>
+
+
  
        
   
