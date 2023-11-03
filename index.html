@@ -83,18 +83,25 @@
     <main>
         
       <!-- Header -->
-      <header class="bg-primary">
-        <div class="container-fluid text-white mb-4">
-          <div class="row">
-            <div class="col-12 col-md-4 col-lg-5">
-              <div class="row mb-4">
+      <header class="bg-primary pt-4 mb-4">
+        <div class="container-fluid text-white">
+          <div class="row mb-4">
+            <div class="col-12 col-md-4 col-lg-6">
+              <div class="row">
                 <div class="col-12">
                   <h1 class="fs-3 d-inline-block">Boolean</h1>
                   <span class="badge rounded-pill text-bg-dark bg-opacity-25">Piano blaze</span>
                 </div>
                 <div class="col-12">
                   <span class="badge rounded-pill text-bg-dark bg-opacity-25">3 app</span>
-                  <span class="badge rounded-pill text-bg-dark bg-opacity-25">+</span>
+                  <span>&raquo;</span>
+                  <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-lg-none">+</span>
+                  <div class="d-none d-lg-inline-block">
+                    <span class="badge rounded-pill text-bg-dark bg-opacity-25">Boolean mobile app</span>
+                    <span class="badge rounded-pill text-bg-dark bg-opacity-25">Boolean web app</span>
+                    <span class="badge rounded-pill text-bg-dark bg-opacity-25">Boolean blog app</span>
+                  </div>
+                  
                 </div>
               </div>
               
@@ -102,8 +109,14 @@
               
 
             </div>
-            <div class="col-12 col-md-4 col-lg">Studenti online</div>
-            <div class="col-12 col-md-4 col-lg">Nuovo studente</div>
+            <div class="col-12 col-md-4 col-lg">
+              <p class="mb-0">Studenti online</p>
+              <p class="fs-3">125</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg">
+              <p class="mb-0 d-inline-block">Nuovo studente</p>
+              <button type="button" class="btn btn-outline-light my_btn p-0 ms-2">+</button>
+            </div>
           </div>
         </div>
       </header>

@@ -22,13 +22,11 @@ main {
   background-color: #f8f9fa;
 }
 
-/* main div.row {
-  border: 1px solid red;
+.my_btn {
+  height: 2rem;
+  width: 2rem;
+  vertical-align: middle;
 }
-
-div[class^="col"] {
-  border: 1px solid blueviolet;
-} */
 
 @media screen and (min-width: 992px) {
   #my_sidebar {
