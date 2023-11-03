@@ -23,14 +23,17 @@
 <body>
 
   <!-- header -->
-  <header class="my_searchbar">   
+  <!-- se metto d-flex e align-items-center prende misura strana -->
+  <header class="my_searchbar">
 
-    <nav class="navbar">
+    <nav class="navbar p-0 bg-white">
       <div class="container-fluid d-flex flex-nowrap">
-      
+     
         <a class="navbar-brand" href="#">
-          <img src="./img/logo.svg" alt="boolean logo" class="img-fluid">
+          <img src="./img/logo.svg" alt="boolean logo" class="img-fluid d-none d-lg-inline-block">
         </a>
+
+
     
         <form class="input-group me-3">
           <span class="input-group-text bg-secondary-subtle" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -47,10 +50,6 @@
           <i class="fa-solid fa-bell me-3" style="color: #ff8f00;"></i>
         </div>
 
-
- 
-       
-  
       </div>
     </nav>
   
@@ -124,7 +123,7 @@
               <p class="mb-0">Studenti online</p>
               <p class="fs-3">125</p>
             </div>
-            <div class="col-12 col-md-4 col-lg">
+            <div class="col-12 col-md-4 col-lg order-first order-md-last">
               <p class="mb-0 d-inline-block">Nuovo studente</p>
               <button type="button" class="btn btn-outline-light my_btn p-0 ms-2">+</button>
             </div>
@@ -152,6 +151,9 @@
               </div>
 
               <div class="col-12 card mb-2">
+                <div class="card-header">
+                  <h2 class="fs-5">F.A.Q.</h2>               
+                </div>
                 <div class="card-body">
                   F.A.Q.
                 </div>
@@ -161,14 +163,30 @@
 
             <div class="col-12 col-lg-4">
               <div class="col-12 card mb-2">
-                <div class="card-body">
-                  todo
+                <div class="card-header">
+                  <h2 class="fs-5">Todo</h2>               
+                </div>
+                <div class="card m-3">
+                  <div class="card-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Default checkbox
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                      </label>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="col-12 card mb-2">
                 <div class="card-body">
-                  b
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum deserunt odio officiis, doloribus aliquam veniam non reiciendis et in, officia, tempora debitis natus eaque praesentium molestias illum maiores quibusdam. A?
                 </div>
               </div>
             </div>
