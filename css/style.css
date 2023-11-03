@@ -5,6 +5,8 @@ body {
 
 header.my_searchbar {
   height: 60px;
+  background-color: #f8f9fa;
+  
 }
 
 #my_sidebar {
