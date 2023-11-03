@@ -1,0 +1,26 @@
+header {
+  height: 60px;
+}
+
+nav {
+  height: calc(100vh - 60px);
+  background-color: #142a40;
+  width: 60px;
+}
+
+main {
+  height: calc(100vh - 60px);
+  width: calc(100vw - 60px);
+  overflow: auto;
+  background-color: #f8f9fa;
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    width: 120px;
+  }
+
+  main {
+    width: calc(100vw - 120px);
+  }
+}
