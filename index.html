@@ -20,19 +20,44 @@
 <body>
 
   <!-- header -->
-  <header class="my_searchbar"></header>
+  <header class="my_searchbar">
+
+    <!-- Inserire qui nav di bootstrap -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <form class="d-flex" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+  
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bell"></i></a>
+          </li>
+        </ul>
+  
+      </div>
+    </nav>
+  
+    
+  </header>
 
   <!-- Wrapper -->
   <div class="my_content-wrapper d-flex">
     <!-- navbar -->
-    <nav></nav>
+    <nav id="my_sidebar"></nav>
 
     <!-- main -->
     <main>
         
       <!-- Header -->
       <header class="bg-primary">
-        <div class="container-fluid text-white">
+        <div class="container-fluid text-white mb-4">
           <div class="row">
             <div class="col-12 col-md-4 col-lg-5">Boolean</div>
             <div class="col-12 col-md-4 col-lg">Studenti online</div>
@@ -45,16 +70,22 @@
       <section class="my_cards">
         <div class="container-fluid">
           
-          <div class="row p-1">
-            <div class="col-12 col-lg-8 px-1">
+          <div class="row">
+            <div class="col-12 col-lg-8">
 
-              <div class="col-12 card">
-                <div class="card-body">
-                  Prossime classi
+              <div class="col-12 card mb-2">
+                <div class="card-header">
+                    <h2 class="fs-5">Prossime classi</h2>               
                 </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+              
               </div>
 
-              <div class="col-12 card">
+              <div class="col-12 card mb-2">
                 <div class="card-body">
                   F.A.Q.
                 </div>
@@ -62,14 +93,14 @@
 
             </div>
 
-            <div class="col-12 col-lg-4 px-1">
-              <div class="col-12 card">
+            <div class="col-12 col-lg-4">
+              <div class="col-12 card mb-2">
                 <div class="card-body">
                   todo
                 </div>
               </div>
 
-              <div class="col-12 card">
+              <div class="col-12 card mb-2">
                 <div class="card-body">
                   b
                 </div>

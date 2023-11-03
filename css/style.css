@@ -7,7 +7,7 @@ header.my_searchbar {
   height: 60px;
 }
 
-nav {
+#my_sidebar {
   height: calc(100vh - 60px);
   background-color: #142a40;
   width: 60px;
@@ -29,7 +29,7 @@ div[class^="col"] {
 } */
 
 @media screen and (min-width: 992px) {
-  nav {
+  #my_sidebar {
     width: 120px;
   }
 
