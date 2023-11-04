@@ -2,19 +2,31 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
+/* Header */
 header.my_searchbar {
   height: 60px;
+  width: 100%;
   background-color: #f8f9fa;
-  
+
+  display: flex;
 }
 
+.my_mobile-logo {
+  width: 40px;
+}
+
+.my_logo {
+  width: 140px;
+}
+
+/* Sidebar */
 #my_sidebar {
   height: calc(100vh - 60px);
   background-color: #142a40;
   width: 60px;
 }
 
+/* Main */
 main {
   height: calc(100vh - 60px);
   width: calc(100vw - 60px);
@@ -25,7 +37,7 @@ main {
 .my_btn {
   height: 2rem;
   width: 2rem;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 @media screen and (min-width: 992px) {
