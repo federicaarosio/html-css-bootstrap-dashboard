@@ -23,6 +23,7 @@ header.my_searchbar {
 #my_sidebar {
   height: calc(100vh - 60px);
   background-color: #142a40;
+  background-image: url(../img/sidebar-bg.png);
   width: 60px;
 }
 
@@ -34,25 +35,54 @@ main {
   background-color: #f8f9fa;
 }
 
+/* Controllare */
+.my_offcanvas-width {
+  width: 75%;
+}
+
 .my_btn {
   height: 2rem;
   width: 2rem;
 }
 
-.my_code-button {
-  background-color: #f26551;
-  height: 35px;
-  width: 35px;
-  text-align: center;
-  padding: 0;
+.my_icon-wrapper {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
 }
+
+.my_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.my_table-width-big {
+  width: 48%;
+}
+
+.my_table-width-small {
+  width: 13%;
+}
+
+/* .my_display-sm-none {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .my_display-sm-none {
+    display: inline-block;
+  }
+} */
 
 @media screen and (min-width: 992px) {
   #my_sidebar {
-    width: 120px;
+    width: 140px;
   }
 
   main {
-    width: calc(100vw - 120px);
+    width: calc(100vw - 140px);
   }
 }
