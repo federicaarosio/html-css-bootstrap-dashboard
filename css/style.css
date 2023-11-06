@@ -45,6 +45,10 @@ main {
   width: 2rem;
 }
 
+.my_display-none-md {
+ display: none;
+}
+
 .my_icon-wrapper {
   width: 25px;
   height: 25px;
@@ -63,19 +67,11 @@ main {
   width: 48%;
 }
 
-.my_table-width-small {
-  width: 13%;
-}
-
-/* .my_display-sm-none {
-  display: none;
-}
-
 @media screen and (min-width: 576px) {
-  .my_display-sm-none {
-    display: inline-block;
-  }
-} */
+  .my_display-none-md {
+    display: table-cell;
+   }
+}
 
 @media screen and (min-width: 992px) {
   #my_sidebar {
@@ -85,4 +81,5 @@ main {
   main {
     width: calc(100vw - 140px);
   }
+
 }
