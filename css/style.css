@@ -27,6 +27,10 @@ header.my_searchbar {
   width: 60px;
 }
 
+.my_hover-sidebar:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 /* Main */
 main {
   height: calc(100vh - 60px);
@@ -36,8 +40,8 @@ main {
 }
 
 /* Controllare */
-.my_offcanvas-width {
-  width: 75%;
+#offcanvasExample {
+  width: 100%;
 }
 
 .my_btn {
@@ -80,6 +84,10 @@ main {
 
   main {
     width: calc(100vw - 140px);
+  }
+
+  #offcanvasExample {
+    width: 600px;
   }
 
 }
