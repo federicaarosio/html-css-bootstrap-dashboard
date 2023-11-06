@@ -115,8 +115,8 @@
               </div>
 
             </div>
-            <div class="col-12 col-md-4 col-lg  mb-3">
-              <p class="mb-0">Studenti online</p>
+            <div class="col-12 col-md-4 col-lg-4  mb-3">
+              <p class="mb-0">Studenti online negli ultimi 30 minuti</p>
               <p class="fs-3">125</p>
             </div>
             <div class="col-12 col-md-4 col-lg order-first order-md-last mb-3">
@@ -125,7 +125,7 @@
 
               <div class="offcanvas offcanvas-end my_offcanvas-width" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                  <h5 class="offcanvas-title fs-5" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -154,21 +154,6 @@
                         </div>                        
                       </div>
                       
-                      <div class="col-6">
-                        <div class="mb-3">
-                          <label for="Password" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="Password">
-                        </div>
-                      </div>
-
-                      <div class="col-6">
-                        <label for="Email" class="form-label">Email</label>
-                        <div class="input-group mb-3">
-                          <span class="input-group-text" id="basic-addon1">@</span>
-                          <input type="email" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
-                        </div>                        
-                      </div>
-
                       <div class="col-6">
                         <div class="mb-3">
                           <label for="Password" class="form-label">Password</label>
@@ -242,7 +227,7 @@
           <div class="row">
             <div class="col-12 col-lg-8">
 
-              <div class="col-12 card mb-2">
+              <div class="col-12 card mb-4">
                 <div class="card-header">
                     <h2 class="fs-5">Prossime classi</h2>               
                 </div>
@@ -251,11 +236,11 @@
                   <table class="table table-hover align-middle text-center">
                     <thead>
                       <tr>
-                        <th scope="col" class="my_table-width-big text-start">Nome</th>
-                        <th scope="col" class="my_display-none-md">Data inizio</th>
-                        <th scope="col" class="my_display-none-md">ROI</th>
-                        <th scope="col">Stato</th>
-                        <th scope="col">Azioni</th>
+                        <th scope="col" class="my_table-width-big text-start fw-normal">Nome</th>
+                        <th scope="col" class="my_display-none-md fw-normal">Data inizio</th>
+                        <th scope="col" class="my_display-none-md fw-normal">ROI</th>
+                        <th scope="col" class="fw-normal">Stato</th>
+                        <th scope="col" class="fw-normal">Azioni</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -396,7 +381,7 @@
               </div>
 
               <!-- F.A.Q. -->
-              <div class="col-12 card mb-2">
+              <div class="col-12 card mb-4">
                 <div class="card-header">
                   <h2 class="fs-5">F.A.Q.</h2>               
                 </div>
@@ -440,13 +425,13 @@
 
             <div class="col-12 col-lg-4">
               <!-- Todo -->
-              <div class="col-12 card mb-2">
+              <div class="col-12 card mb-4">
                 <div class="card-header">
                   <h2 class="fs-5">Todo</h2>               
                 </div>
                 <div class="card m-3">
                     <div class="card-body p-0">
-                      <ul class="list-group list-group-flush">
+                      <ul class="list-group list-group-flush rounded">
                         <li class="list-group-item">
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -459,7 +444,7 @@
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                              Lezione su Bootstrao 5 in classe #75
+                              Lezione su Bootstrap 5 in classe #75
                             </label>
                           </div>
                         </li>
@@ -477,13 +462,11 @@
               </div>
 
               <!-- Reposrts and stats  -->
-              <div class="col-12 card mb-2">
+              <div class="col-12 card mb-4">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
-                    <img src="./img/stats.jpeg" alt="stats" class="img-fluid">
-                  </li>
-                  <li class="list-group-item">
-                    <h3>Utenti attivi</h3>
+                    <img src="./img/stats.jpeg" alt="stats" class="img-fluid mb-3">
+                    <h3 class="fs-5">Utenti attivi</h3>
                     <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                   </li>
                   <li class="list-group-item">Gennaio: 1200</li>
