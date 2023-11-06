@@ -37,7 +37,14 @@ main {
 .my_btn {
   height: 2rem;
   width: 2rem;
-  /* vertical-align: middle; */
+}
+
+.my_code-button {
+  background-color: #f26551;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  padding: 0;
 }
 
 @media screen and (min-width: 992px) {
