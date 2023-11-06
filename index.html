@@ -96,7 +96,7 @@
       <header class="bg-primary pt-4 mb-4">
         <div class="container-fluid text-white">
           <div class="row mb-4">
-            <div class="col-12 col-md-4 col-lg-6">
+            <div class="col-12 col-md-4 col-lg-6  mb-3">
               <div class="row">
                 <div class="col-12">
                   <h1 class="fs-3 d-inline-block">Boolean</h1>
@@ -115,15 +115,15 @@
               </div>
 
             </div>
-            <div class="col-12 col-md-4 col-lg">
+            <div class="col-12 col-md-4 col-lg  mb-3">
               <p class="mb-0">Studenti online</p>
               <p class="fs-3">125</p>
             </div>
-            <div class="col-12 col-md-4 col-lg order-first order-md-last">
+            <div class="col-12 col-md-4 col-lg order-first order-md-last mb-3">
               <p class="mb-0 d-inline-block">Nuovo studente</p>
               <button type="button" class="btn btn-outline-light my_btn p-0 ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
 
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas offcanvas-end my_offcanvas-width" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -131,18 +131,21 @@
                 <div class="offcanvas-body">
                   <div class="container-fluid">
                     <form class="row">
+
                       <div class="col-6">
                         <div class="mb-3">
                           <label for="Nome" class="form-label">Nome</label>
                           <input type="text" class="form-control" id="Nome">
                         </div>
                       </div>
+
                       <div class="col-6">
                         <div class="mb-3">
                           <label for="Cognome" class="form-label">Cognome</label>
                           <input type="text" class="form-control" id="Cognome">
                         </div>
                       </div>
+
                       <div class="col-6">
                         <label for="Email" class="form-label">Email</label>
                         <div class="input-group mb-3">
@@ -150,12 +153,14 @@
                           <input type="email" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
                         </div>                        
                       </div>
+                      
                       <div class="col-6">
                         <div class="mb-3">
                           <label for="Password" class="form-label">Password</label>
                           <input type="password" class="form-control" id="Password">
                         </div>
                       </div>
+
                       <div class="col-6">
                         <label for="Email" class="form-label">Email</label>
                         <div class="input-group mb-3">
@@ -163,30 +168,35 @@
                           <input type="email" class="form-control" aria-label="Email" aria-describedby="basic-addon1">
                         </div>                        
                       </div>
+
                       <div class="col-6">
                         <div class="mb-3">
                           <label for="Password" class="form-label">Password</label>
                           <input type="password" class="form-control" id="Password">
                         </div>
                       </div>
+
                       <div class="col-12">
                         <div class="mb-3">
                           <label for="Indirizzo" class="form-label">Indirizzo</label>
                           <input type="text" class="form-control" id="Indirizzo">
                         </div>
                       </div>
+
                       <div class="col-6">
                         <div class="mb-3">
                           <label for="Città" class="form-label">Città</label>
                           <input type="text" class="form-control" id="Città">
                         </div>
                       </div>
+
                       <div class="col-4">
                         <div class="mb-3">
                           <label for="Stato" class="form-label">Stato</label>
                           <input type="text" class="form-control" id="Stato">
                         </div>
                       </div>
+
                       <div class="col-2">
                         <div class="mb-3">
                           <label for="CAP" class="form-label">CAP</label>
@@ -198,6 +208,15 @@
                         <label for="Foto" class="form-label">Foto</label>
                         <div class="input-group mb-3">
                           <input type="file" class="form-control" id="inputGroupFile02">
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <div class="form-check mb-3">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Seleziona per proseguire
+                          </label>
                         </div>
                       </div>
 
@@ -229,10 +248,10 @@
                 </div>
 
                 <div class="card-body">
-                  <table class="table">
+                  <table class="table table-hover align-middle">
                     <thead>
                       <tr>
-                        <th scope="col" colspan="8">Nome</th>
+                        <th scope="col" class="my_table-width">Nome</th>
                         <th scope="col">Data inizio</th>
                         <th scope="col">ROI</th>
                         <th scope="col">Stato</th>
@@ -241,7 +260,9 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="8">Classe 75</td>
+                        <td>
+                          <img src="./img/class-avatar.jpg" alt="red circle with code icon" class="my_icon">
+                          Classe 75</td>
                         <td>15 Feb 2021</td>
                         <td>20%</td>
                         <td><span class="badge pill text-bg-dark bg-success">Done</span></td>
@@ -251,7 +272,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="8">Classe 75</td>
+                        <td>Classe 75</td>
                         <td>15 Feb 2021</td>
                         <td>20%</td>
                         <td><span class="badge pill text-bg-dark bg-success">Done</span></td>
@@ -261,7 +282,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="8">Classe 75</td>
+                        <td>Classe 75</td>
                         <td>15 Feb 2021</td>
                         <td>20%</td>
                         <td><span class="badge pill text-bg-dark bg-warning">process</span></td>
@@ -271,7 +292,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="8">Classe 75</td>
+                        <td>Classe 75</td>
                         <td>15 Feb 2021</td>
                         <td>20%</td>
                         <td><span class="badge pill text-bg-dark bg-success">Done</span></td>
@@ -281,7 +302,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td colspan="8">Classe 75</td>
+                        <td>Classe 75</td>
                         <td>15 Feb 2021</td>
                         <td>20%</td>
                         <td><span class="badge pill text-bg-dark bg-danger">failed</span></td>
