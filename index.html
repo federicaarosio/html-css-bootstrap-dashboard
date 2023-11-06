@@ -23,7 +23,7 @@
 <body>
 
   <!-- header -->
-  <header class="my_searchbar d-flex bg-secondary-subtle">
+  <header class="my_searchbar d-flex">
 
     <nav class="d-flex align-items-center bg-white w-100 my-2">
       <div class="my_logo_wrapper mx-3">
@@ -61,7 +61,7 @@
 
     <!-- sidebar -->
     <nav id="my_sidebar">
-      <div class="d-flex flex-column justify-content-between h-100 py-4">
+      <div class="d-flex flex-column justify-content-between h-100 py-2">
 
         <div class="d-flex flex-column align-items-center text-white">
           <div class="p-2 my_hover-sidebar">
@@ -123,6 +123,7 @@
               <p class="mb-0 d-inline-block">Nuovo studente</p>
               <button type="button" class="btn btn-outline-light my_btn p-0 ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">+</button>
 
+              <!-- Offcanvas -->
               <div class="offcanvas offcanvas-end my_offcanvas-width" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title fs-5" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
@@ -132,21 +133,21 @@
                   <div class="container-fluid">
                     <form class="row">
 
-                      <div class="col-6">
+                      <div class="col-12 col-md-6">
                         <div class="mb-3">
                           <label for="Nome" class="form-label">Nome</label>
                           <input type="text" class="form-control" id="Nome">
                         </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-12 col-md-6">
                         <div class="mb-3">
                           <label for="Cognome" class="form-label">Cognome</label>
                           <input type="text" class="form-control" id="Cognome">
                         </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-12 col-md-6">
                         <label for="Email" class="form-label">Email</label>
                         <div class="input-group mb-3">
                           <span class="input-group-text" id="basic-addon1">@</span>
@@ -154,7 +155,7 @@
                         </div>                        
                       </div>
                       
-                      <div class="col-6">
+                      <div class="col-12 col-md-6">
                         <div class="mb-3">
                           <label for="Password" class="form-label">Password</label>
                           <input type="password" class="form-control" id="Password">
@@ -168,21 +169,21 @@
                         </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-12 col-md-6">
                         <div class="mb-3">
                           <label for="Città" class="form-label">Città</label>
                           <input type="text" class="form-control" id="Città">
                         </div>
                       </div>
 
-                      <div class="col-4">
+                      <div class="col-12 col-md-4">
                         <div class="mb-3">
                           <label for="Stato" class="form-label">Stato</label>
                           <input type="text" class="form-control" id="Stato">
                         </div>
                       </div>
 
-                      <div class="col-2">
+                      <div class="col-12 col-md-2">
                         <div class="mb-3">
                           <label for="CAP" class="form-label">CAP</label>
                           <input type="text" class="form-control" id="CAP">
@@ -191,13 +192,13 @@
                       
                       <div class="col-12">
                         <label for="Foto" class="form-label">Foto</label>
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-4">
                           <input type="file" class="form-control" id="inputGroupFile02">
                         </div>
                       </div>
 
                       <div class="col-12">
-                        <div class="form-check mb-3">
+                        <div class="form-check mb-4">
                           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                           <label class="form-check-label" for="flexCheckDefault">
                             Seleziona per proseguire

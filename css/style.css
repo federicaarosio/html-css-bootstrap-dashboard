@@ -7,8 +7,6 @@ header.my_searchbar {
   height: 60px;
   width: 100%;
   background-color: #f8f9fa;
-
-  display: flex;
 }
 
 .my_mobile-logo {
